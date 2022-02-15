@@ -1,0 +1,39 @@
+.desserts {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  .DessertseLoading {
+    text-align: center;
+    color: white;
+  }
+  .DessertsError {
+    text-align: center;
+    color: red;
+  }
+  .desserts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .desserts h1{
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: fantasy;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

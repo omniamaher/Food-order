@@ -1,0 +1,45 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+.MealseLoading {
+  text-align: center;
+  color: white;
+}
+.MealsError {
+  text-align: center;
+  color: red;
+}
+Ï .meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.meals img {
+  position: top;
+  width: 50px;
+  height: 50px;
+}
+
+.meals h1 {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
